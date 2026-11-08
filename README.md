@@ -50,3 +50,10 @@ public assets first and writes a separate private directory under `Local/` with
 SVGs, a catalog, an overview and a self-contained gallery. Private entries have
 no public artwork grant. Retain private originals and provenance separately;
 this assembly does not migrate or publish them. Never commit or upload `Local/`.
+Run `deno task private:png --build Local/private-build-...` to create the PNG
+and hash receipt, then
+`deno task private:serve --build Local/private-build-...
+--port 18230` for the
+gallery and assets on 127.0.0.1 only. The build directory is printed by
+`private:build`. PNG export requires librsvg. Private output and receipts remain
+in the ignored directory.

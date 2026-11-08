@@ -39,4 +39,7 @@ https://creativecommons.org/licenses/by/4.0/ 並註明修改。CC BY 4.0
 `Local/private-icons.json`，執行 `deno task private:build`。工具先驗證公開素材，
 再於 `Local/` 的獨立私人目錄產生 SVG、目錄、總覽及獨立圖庫。私人項目不適用公開
 圖稿授權。私人原稿與來源紀錄須另行保留；此操作不遷移或公開它們。勿提交或上傳
-`Local/`。
+`Local/`。 執行 `deno task private:png --build Local/private-build-...` 產生 PNG
+與雜湊 收據；再執行
+`deno task private:serve --build Local/private-build-... --port 18230` 在
+127.0.0.1 預覽。目錄由 `private:build` 顯示；PNG 匯出需要 librsvg。
