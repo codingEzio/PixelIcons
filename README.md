@@ -41,3 +41,12 @@ icons. Its Git history is independent of the original private repository. It
 excludes private originals and the two unselected brand-related icons. The
 source, metadata and visual review is bounded and does not establish universal
 rights clearance. See LICENSE-SCOPE.json and public-files.json.
+
+## Optional private local assembly
+
+Keep a JSON array of private `IconDefinition` grids in the ignored
+`Local/private-icons.json`, then run `deno task private:build`. It verifies the
+public assets first and writes a separate private directory under `Local/` with
+SVGs, a catalog, an overview and a self-contained gallery. Private entries have
+no public artwork grant. Retain private originals and provenance separately;
+this assembly does not migrate or publish them. Never commit or upload `Local/`.

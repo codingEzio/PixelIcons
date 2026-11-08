@@ -22,8 +22,9 @@ identity or imply endorsement. The linked legal code contains the full terms.
 [LICENSE](LICENSE) covers project-authored software/documentation only and
 excludes artwork and third-party components. Historical provenance records
 remain unchanged; their import-time pending fields are superseded by the current
-scope. No third-party work or font is relicensed. Publication of the selected source is authorized. History rewrite and deletion
-of originals remain separate decisions.
+scope. No third-party work or font is relicensed. Publication of the selected
+source is authorized. History rewrite and deletion of originals remain separate
+decisions.
 
 The separate new documentation mark `docs/icon.svg` is credited to codingEzio
 and covered only by [ARTWORK-LICENSE.md](ARTWORK-LICENSE.md). It is not added to

@@ -124,6 +124,7 @@
     "scripts/build.ts",
     "scripts/export-preview.ts",
     "scripts/preview.ts",
+    "scripts/private-build.ts",
     "scripts/public-artwork.ts",
     "scripts/public-check.ts",
     "scripts/serve.ts",
@@ -132,6 +133,7 @@
     "src/icons.ts",
     "src/overview.ts",
     "src/render.ts",
+    "tests/private_build_test.ts",
     "tests/public_check_test.ts"
   ],
   "limitations": [
