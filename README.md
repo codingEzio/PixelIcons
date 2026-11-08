@@ -61,3 +61,9 @@ in the ignored directory.
 The public server accepts its bind address as a Host. For a wildcard bind, pass
 an explicit hostname for each client with `--allow-host`, for example
 `deno task serve --port 18230 --host 0.0.0.0 --allow-host 192.168.1.2`.
+
+The public server pins the reviewed catalog and PNG hashes and sizes in
+`src/public-asset-pins.ts`; it checks SVGs against the editable source. After
+intentionally changing those public outputs, review the assets and update the
+pins before serving. A preview receipt is a consistency record, not independent
+proof of origin or rights.

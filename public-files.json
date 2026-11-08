@@ -135,6 +135,7 @@
     "src/gallery.ts",
     "src/icons.ts",
     "src/overview.ts",
+    "src/public-asset-pins.ts",
     "src/render.ts",
     "tests/private_build_test.ts",
     "tests/public_check_test.ts",

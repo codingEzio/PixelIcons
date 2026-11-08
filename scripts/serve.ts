@@ -3,6 +3,7 @@ import { icons } from "../src/icons.ts";
 import { renderIconSvg } from "../src/render.ts";
 import { renderOverview } from "../src/overview.ts";
 import { renderGallery } from "../src/gallery.ts";
+import { publicAssetPins } from "../src/public-asset-pins.ts";
 const options = new Map<string, string>();
 const extraHosts: string[] = [];
 for (let i = 0; i < Deno.args.length; i += 2) {
@@ -53,25 +54,51 @@ if (hostname === "127.0.0.1" || hostname === "localhost") {
   allowed.add(authority("127.0.0.1"));
   allowed.add(authority("localhost"));
 }
-// lstat plus descriptor identity prevents a symlink swap from redirecting reads.
-async function snapshot(path: string): Promise<Uint8Array> {
+// Public bytes are bounded before allocation and checked against their source.
+// Directory identity checks surround each open; pinned content also prevents
+// transient directory swaps from being served even if a path is swapped back.
+const directories = new Map<string, Deno.FileInfo>();
+for (const path of ["icons", "previews"]) {
+  const stat = await Deno.lstat(path);
+  if (
+    !stat.isDirectory || stat.isSymlink || stat.dev === null ||
+    stat.ino === null
+  ) throw Error(`Unsafe public directory: ${path}`);
+  directories.set(path, stat);
+}
+async function checkDirectory(path: string): Promise<void> {
+  const current = await Deno.lstat(path), original = directories.get(path)!;
+  if (
+    !current.isDirectory || current.isSymlink || current.dev !== original.dev ||
+    current.ino !== original.ino
+  ) throw Error(`Public directory changed: ${path}`);
+}
+async function snapshot(
+  path: string,
+  expectedSize: number,
+): Promise<Uint8Array> {
+  const parent = path.includes("/")
+    ? path.slice(0, path.lastIndexOf("/"))
+    : ".";
+  if (parent !== ".") await checkDirectory(parent);
   const before = await Deno.lstat(path);
-  if (!before.isFile || before.isSymlink) {
-    throw Error(`Unsafe public asset: ${path}`);
-  }
+  if (
+    !before.isFile || before.isSymlink || before.size !== expectedSize ||
+    before.dev === null || before.ino === null
+  ) throw Error(`Unsafe public asset or unexpected size: ${path}`);
   const file = await Deno.open(path, { read: true });
   try {
     const opened = await file.stat();
     if (
       !opened.isFile || opened.dev !== before.dev ||
-      opened.ino !== before.ino || opened.size !== before.size ||
+      opened.ino !== before.ino || opened.size !== expectedSize ||
       opened.mtime?.getTime() !== before.mtime?.getTime()
     ) throw Error(`Public asset changed while opening: ${path}`);
-    const bytes = new Uint8Array(opened.size);
+    const bytes = new Uint8Array(expectedSize);
     let offset = 0;
     while (offset < bytes.length) {
       const n = await file.read(bytes.subarray(offset));
-      if (n === null) throw Error(`Short read: ${path}`);
+      if (n === null || n === 0) throw Error(`Short read: ${path}`);
       offset += n;
     }
     const after = await file.stat();
@@ -79,6 +106,7 @@ async function snapshot(path: string): Promise<Uint8Array> {
       after.size !== opened.size ||
       after.mtime?.getTime() !== opened.mtime?.getTime()
     ) throw Error(`Public asset changed while reading: ${path}`);
+    if (parent !== ".") await checkDirectory(parent);
     return bytes;
   } finally {
     file.close();
@@ -92,29 +120,29 @@ const hash = async (bytes: Uint8Array) =>
     (n) => n.toString(16).padStart(2, "0"),
   ).join("");
 const decoder = new TextDecoder();
-const catalogBytes = await snapshot("catalog.json");
+const catalogBytes = await snapshot(
+  "catalog.json",
+  publicAssetPins.catalog.bytes,
+);
+if (await hash(catalogBytes) !== publicAssetPins.catalog.sha256) {
+  throw Error("Public catalog does not match the reviewed pin");
+}
 const catalog = JSON.parse(decoder.decode(catalogBytes));
 if (
   catalog.count !== icons.length || !Array.isArray(catalog.icons) ||
   catalog.icons.length !== icons.length
 ) throw Error("Invalid public catalog");
-const overviewSvg = await snapshot("previews/overview.svg");
-if (decoder.decode(overviewSvg) !== renderOverview()) {
+const expectedOverview = renderOverview();
+const overviewSvg = await snapshot(
+  "previews/overview.svg",
+  new TextEncoder().encode(expectedOverview).length,
+);
+if (decoder.decode(overviewSvg) !== expectedOverview) {
   throw Error("Stale public SVG preview");
 }
-const png = await snapshot("previews/overview.png");
-const receipt = JSON.parse(
-  decoder.decode(await snapshot("previews/receipt.json")),
-);
-if (
-  receipt.svgSha256 !== await hash(overviewSvg) ||
-  receipt.pngSha256 !== await hash(png)
-) throw Error("Public preview receipt mismatch");
-for (const path of ["icons", "previews"]) {
-  const stat = await Deno.lstat(path);
-  if (!stat.isDirectory || stat.isSymlink) {
-    throw Error(`Unsafe public directory: ${path}`);
-  }
+const png = await snapshot("previews/overview.png", publicAssetPins.png.bytes);
+if (await hash(png) !== publicAssetPins.png.sha256) {
+  throw Error("Public PNG does not match the reviewed pin");
 }
 const gallery = renderGallery(
   icons.map((icon) => ({ ...icon, svg: renderIconSvg(icon) })),
@@ -125,8 +153,12 @@ const assets = new Map<string, readonly [Uint8Array, string]>([
   ["/previews/overview.png", [png, "image/png"]],
 ]);
 for (const icon of icons) {
-  const svg = await snapshot(`icons/${icon.name}.svg`);
-  if (decoder.decode(svg) !== renderIconSvg(icon)) {
+  const expectedSvg = renderIconSvg(icon);
+  const svg = await snapshot(
+    `icons/${icon.name}.svg`,
+    new TextEncoder().encode(expectedSvg).length,
+  );
+  if (decoder.decode(svg) !== expectedSvg) {
     throw Error(`Stale public icon: ${icon.name}`);
   }
   const matching = catalog.icons.filter((entry: { name: string }) =>

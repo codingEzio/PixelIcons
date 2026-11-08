@@ -46,3 +46,7 @@ https://creativecommons.org/licenses/by/4.0/ 並註明修改。CC BY 4.0
 
 公開服務只接受監聽位址的 Host。使用萬用位址時，須以 `--allow-host` 明確列出
 客戶端使用的主機名稱或 IP，例如 `--host 0.0.0.0 --allow-host 192.168.1.2`。
+
+公開服務以 `src/public-asset-pins.ts` 固定已審核 catalog 與 PNG 的雜湊和大小，
+並以點陣來源驗證 SVG。刻意變更公開輸出後，須先審閱素材並更新固定值。預覽收據
+僅供一致性核對，不獨立證明來源或權利。

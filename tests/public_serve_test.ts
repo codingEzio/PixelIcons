@@ -109,6 +109,46 @@ Deno.test({
       assert(!rejected.success, "symlink present before startup must fail");
       await Deno.remove(`${tmp}/icons/home.svg`);
       await Deno.writeFile(`${tmp}/icons/home.svg`, original);
+      const pngPath = `${tmp}/previews/overview.png`;
+      const receiptPath = `${tmp}/previews/receipt.json`;
+      const pngOriginal = await Deno.readFile(pngPath);
+      const receiptOriginal = await Deno.readTextFile(receiptPath);
+      await Deno.truncate(pngPath, 2 ** 34);
+      assert(
+        !(await spawn().status).success,
+        "oversized sparse PNG must fail before allocation",
+      );
+      await Deno.writeFile(pngPath, pngOriginal);
+      const modified = pngOriginal.slice();
+      modified[modified.length - 1] ^= 1;
+      await Deno.writeFile(pngPath, modified);
+      const receipt = JSON.parse(receiptOriginal);
+      receipt.pngSha256 = Array.from(
+        new Uint8Array(await crypto.subtle.digest("SHA-256", modified.buffer)),
+        (n) => n.toString(16).padStart(2, "0"),
+      ).join("");
+      await Deno.writeTextFile(receiptPath, JSON.stringify(receipt));
+      assert(
+        !(await spawn().status).success,
+        "matching attacker-controlled PNG and receipt must fail",
+      );
+      await Deno.writeFile(pngPath, pngOriginal);
+      await Deno.writeTextFile(receiptPath, receiptOriginal);
+      await Deno.rename(`${tmp}/previews`, `${tmp}/real-previews`);
+      await Deno.symlink(`${tmp}/real-previews`, `${tmp}/previews`);
+      assert(
+        !(await spawn().status).success,
+        "symlinked preview directory must fail before reads",
+      );
+      await Deno.remove(`${tmp}/previews`);
+      await Deno.rename(`${tmp}/real-previews`, `${tmp}/previews`);
+      const catalogPath = `${tmp}/catalog.json`;
+      const catalogOriginal = await Deno.readFile(catalogPath);
+      const changedCatalog = catalogOriginal.slice();
+      changedCatalog[changedCatalog.length - 2] ^= 1;
+      await Deno.writeFile(catalogPath, changedCatalog);
+      assert(!(await spawn().status).success, "unreviewed catalog must fail");
+      await Deno.writeFile(catalogPath, catalogOriginal);
       const noAllow = await spawn("--host", "0.0.0.0").status;
       assert(!noAllow.success, "wildcard must require explicit hosts");
       child = spawn("--host", "0.0.0.0", "--allow-host", "pixel.example");

@@ -13,11 +13,11 @@
   "tasks": {
     "build": "deno run --allow-read=src,scripts,provenance.json,LICENSE-SCOPE.json,icons --allow-write=icons,catalog.json,previews scripts/build.ts",
     "verify": "deno run --allow-read=src,scripts,provenance.json,LICENSE-SCOPE.json,icons,catalog.json,previews scripts/verify.ts",
-    "check": "deno check src/icons.ts src/render.ts src/gallery.ts scripts/build.ts scripts/verify.ts src/overview.ts scripts/preview.ts scripts/export-preview.ts scripts/serve.ts scripts/private-build.ts scripts/private-path.ts scripts/private-png.ts scripts/private-serve.ts",
+    "check": "deno check src/icons.ts src/render.ts src/gallery.ts scripts/build.ts scripts/verify.ts src/overview.ts scripts/preview.ts scripts/export-preview.ts scripts/serve.ts scripts/private-build.ts scripts/private-path.ts scripts/private-png.ts scripts/private-serve.ts src/public-asset-pins.ts",
     "lint": "deno lint src scripts",
     "preview": "deno run --allow-read=src --allow-write=Local scripts/preview.ts",
     "preview:png": "deno run --allow-read=previews --allow-write=previews,Local --allow-run=rsvg-convert scripts/export-preview.ts",
-    "serve": "deno task test && deno run --allow-read=icons,catalog.json,previews --allow-net --allow-sys=uid,gid scripts/serve.ts",
+    "serve": "deno run --allow-read=icons,catalog.json,previews --allow-net --allow-sys=uid,gid scripts/serve.ts",
     "test": "deno task verify",
     "prepare": "deno task build && deno task preview && deno task check && deno task lint && deno fmt --check",
     "public:check": "deno check scripts/public-check.ts && deno lint scripts/public-check.ts && deno run --allow-read scripts/public-check.ts",

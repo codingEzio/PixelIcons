@@ -46,3 +46,7 @@ https://creativecommons.org/licenses/by/4.0/ 并说明修改。CC BY 4.0
 
 公开服务只接受监听地址的 Host。使用通配地址时，须以 `--allow-host` 明确列出
 客户端使用的主机名或 IP，例如 `--host 0.0.0.0 --allow-host 192.168.1.2`。
+
+公开服务以 `src/public-asset-pins.ts` 固定已审核 catalog 与 PNG 的哈希和大小，
+并以点阵来源验证 SVG。刻意变更公开输出后，须先审核素材并更新固定值。预览收据
+仅供一致性核对，不独立证明来源或权利。
