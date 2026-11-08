@@ -43,3 +43,6 @@ https://creativecommons.org/licenses/by/4.0/ 並註明修改。CC BY 4.0
 與雜湊 收據；再執行
 `deno task private:serve --build Local/private-build-... --port 18230` 在
 127.0.0.1 預覽。目錄由 `private:build` 顯示；PNG 匯出需要 librsvg。
+
+公開服務只接受監聽位址的 Host。使用萬用位址時，須以 `--allow-host` 明確列出
+客戶端使用的主機名稱或 IP，例如 `--host 0.0.0.0 --allow-host 192.168.1.2`。

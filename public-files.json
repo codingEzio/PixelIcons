@@ -137,7 +137,8 @@
     "src/overview.ts",
     "src/render.ts",
     "tests/private_build_test.ts",
-    "tests/public_check_test.ts"
+    "tests/public_check_test.ts",
+    "tests/public_serve_test.ts"
   ],
   "limitations": [
     "The artwork review is bounded and does not establish universal copyright or third-party rights clearance."

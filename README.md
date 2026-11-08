@@ -57,3 +57,7 @@ and hash receipt, then
 gallery and assets on 127.0.0.1 only. The build directory is printed by
 `private:build`. PNG export requires librsvg. Private output and receipts remain
 in the ignored directory.
+
+The public server accepts its bind address as a Host. For a wildcard bind, pass
+an explicit hostname for each client with `--allow-host`, for example
+`deno task serve --port 18230 --host 0.0.0.0 --allow-host 192.168.1.2`.

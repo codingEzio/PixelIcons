@@ -28,6 +28,7 @@
     "private:build": "deno task verify && deno run --allow-read=src,catalog.json,Local --allow-write=Local scripts/private-build.ts",
     "private:test": "deno test --allow-read --allow-write --allow-run tests/private_build_test.ts",
     "private:png": "deno run --allow-read=Local --allow-write=Local --allow-run=rsvg-convert scripts/private-png.ts",
-    "private:serve": "deno run --allow-read=Local --allow-net=127.0.0.1 --allow-sys=uid,gid scripts/private-serve.ts"
+    "private:serve": "deno run --allow-read=Local --allow-net=127.0.0.1 --allow-sys=uid,gid scripts/private-serve.ts",
+    "serve:test": "deno test --allow-read --allow-write --allow-run --allow-net tests/public_serve_test.ts"
   }
 }
