@@ -1,0 +1,7 @@
+{
+  "renderer": "librsvg rsvg-convert at intrinsic SVG dimensions; local system fonts",
+  "svgSha256": "0518c5c4a4724eed859c46feeba3a1cfc7c369e4638b029a38b9a7957c4ae6e8",
+  "pngSha256": "ed030bc8f0fccff7ed2a6623976d4658a665ff17558403ea9bf777f58ef14b71",
+  "width": 1280,
+  "height": 1100
+}

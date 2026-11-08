@@ -1,0 +1,2264 @@
+{
+  "schemaVersion": 1,
+  "count": 98,
+  "license": "Scoped CC-BY-4.0 for selected assets; excluded assets are not granted",
+  "licenseScope": "LICENSE-SCOPE.json",
+  "icons": [
+    {
+      "name": "calendar",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/calendar.svg",
+      "sha256": "f89a28097aa081a521bbd0db65a926c937ec4c642c6e5288a7f65d40910f3aea",
+      "distribution": {
+        "id": "calendar",
+        "file": "icons/calendar.svg",
+        "sha256": "f89a28097aa081a521bbd0db65a926c937ec4c642c6e5288a7f65d40910f3aea",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#calendar",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "question",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/question.svg",
+      "sha256": "e6775e5ca6a2525e3368ee8b15f64cb5f8dbd9ed6391d4013a8a39c986d516a6",
+      "distribution": {
+        "id": "question",
+        "file": "icons/question.svg",
+        "sha256": "e6775e5ca6a2525e3368ee8b15f64cb5f8dbd9ed6391d4013a8a39c986d516a6",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#question",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "more",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/more.svg",
+      "sha256": "57f1c3b7e258ae581841b64717cff97ea0408067e13f81cf728ea9660350d018",
+      "distribution": {
+        "id": "more",
+        "file": "icons/more.svg",
+        "sha256": "57f1c3b7e258ae581841b64717cff97ea0408067e13f81cf728ea9660350d018",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#more",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "checkbox",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/checkbox.svg",
+      "sha256": "2bad4462775c788b02d0a0cfd8e5d238624bc1237671667741e74e7018571265",
+      "distribution": {
+        "id": "checkbox",
+        "file": "icons/checkbox.svg",
+        "sha256": "2bad4462775c788b02d0a0cfd8e5d238624bc1237671667741e74e7018571265",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#checkbox",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "checkboxChecked",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/checkboxChecked.svg",
+      "sha256": "04b6e99ce9523532de9050b491f8590c0fc704547a610b23fa4549dab7582e61",
+      "distribution": {
+        "id": "checkboxChecked",
+        "file": "icons/checkboxChecked.svg",
+        "sha256": "04b6e99ce9523532de9050b491f8590c0fc704547a610b23fa4549dab7582e61",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#checkboxChecked",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "list",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/list.svg",
+      "sha256": "87f5aaf6eab60cb587d221cb7bd8093fa27d37c5fd199fa03d190203a09a5b44",
+      "distribution": {
+        "id": "list",
+        "file": "icons/list.svg",
+        "sha256": "87f5aaf6eab60cb587d221cb7bd8093fa27d37c5fd199fa03d190203a09a5b44",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#list",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "minimum",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/minimum.svg",
+      "sha256": "aac2bc4674353b552bb693c75883a51c671440e8ba2eae4a711938ebf9da3bc3",
+      "distribution": {
+        "id": "minimum",
+        "file": "icons/minimum.svg",
+        "sha256": "aac2bc4674353b552bb693c75883a51c671440e8ba2eae4a711938ebf9da3bc3",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#minimum",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "hidden",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/hidden.svg",
+      "sha256": "2ad07b39367126fa7795e828235afd810e2e433da14d8da17123fce7dfb7af63",
+      "distribution": {
+        "id": "hidden",
+        "file": "icons/hidden.svg",
+        "sha256": "2ad07b39367126fa7795e828235afd810e2e433da14d8da17123fce7dfb7af63",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#hidden",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "code",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/code.svg",
+      "sha256": "d9c67ee9e7e24529e74e8a198dbd59b9c814185e5889b05365ff8f4f5b8378c7",
+      "distribution": {
+        "id": "code",
+        "file": "icons/code.svg",
+        "sha256": "d9c67ee9e7e24529e74e8a198dbd59b9c814185e5889b05365ff8f4f5b8378c7",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#code",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "systems",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/systems.svg",
+      "sha256": "299fd3edbe1117eca1606855d308981f5b6b1750a0ef5d1ff331c8eb64c9aeca",
+      "distribution": {
+        "id": "systems",
+        "file": "icons/systems.svg",
+        "sha256": "299fd3edbe1117eca1606855d308981f5b6b1750a0ef5d1ff331c8eb64c9aeca",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#systems",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "hint",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/hint.svg",
+      "sha256": "41e5e4179651f6065251a99531c24d15270966af10e79ccc7d4a7c2827ef51f5",
+      "distribution": {
+        "id": "hint",
+        "file": "icons/hint.svg",
+        "sha256": "41e5e4179651f6065251a99531c24d15270966af10e79ccc7d4a7c2827ef51f5",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#hint",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "recall",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/recall.svg",
+      "sha256": "70befd13130133fa3f970f0b0bf79ad8fdf5645ceccb288f78cf760f777a9f03",
+      "distribution": {
+        "id": "recall",
+        "file": "icons/recall.svg",
+        "sha256": "70befd13130133fa3f970f0b0bf79ad8fdf5645ceccb288f78cf760f777a9f03",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#recall",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "sort",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/sort.svg",
+      "sha256": "c288abab0ed1a5bb473d976eff91ad68901d512da791dcf2f680184058ccbc78",
+      "distribution": {
+        "id": "sort",
+        "file": "icons/sort.svg",
+        "sha256": "c288abab0ed1a5bb473d976eff91ad68901d512da791dcf2f680184058ccbc78",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#sort",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "time",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/time.svg",
+      "sha256": "ff1172146d586b30b9de5dfcaa005b12bc4beac5e4931c861e517cc0e15165a8",
+      "distribution": {
+        "id": "time",
+        "file": "icons/time.svg",
+        "sha256": "ff1172146d586b30b9de5dfcaa005b12bc4beac5e4931c861e517cc0e15165a8",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#time",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "masculine",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/masculine.svg",
+      "sha256": "55e60841e56b83e56e3fce02a8dcfa4da0c553433c3c6c108e70919ba041322c",
+      "distribution": {
+        "id": "masculine",
+        "file": "icons/masculine.svg",
+        "sha256": "55e60841e56b83e56e3fce02a8dcfa4da0c553433c3c6c108e70919ba041322c",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#masculine",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "feminine",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/feminine.svg",
+      "sha256": "97e7ac4a9323f574d6cac380a89c69d5c7d9045116ed08149d98f83023b3f16c",
+      "distribution": {
+        "id": "feminine",
+        "file": "icons/feminine.svg",
+        "sha256": "97e7ac4a9323f574d6cac380a89c69d5c7d9045116ed08149d98f83023b3f16c",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#feminine",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "pause",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/pause.svg",
+      "sha256": "62331e4f1fd86b4c5161b8f4450890ce70658fde1c1adb0d6227b54ffd57bf2c",
+      "distribution": {
+        "id": "pause",
+        "file": "icons/pause.svg",
+        "sha256": "62331e4f1fd86b4c5161b8f4450890ce70658fde1c1adb0d6227b54ffd57bf2c",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#pause",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "fullscreen",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/fullscreen.svg",
+      "sha256": "8aee0e97805ef2922e81a0d68f6ae3cb0caf12adfbb884bb2cf2d2f153eacb1a",
+      "distribution": {
+        "id": "fullscreen",
+        "file": "icons/fullscreen.svg",
+        "sha256": "8aee0e97805ef2922e81a0d68f6ae3cb0caf12adfbb884bb2cf2d2f153eacb1a",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#fullscreen",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "restore",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/restore.svg",
+      "sha256": "b70bd8baeb0b1934587591c28166e1ba74a4357d1f4bc45cbf0a1410a55f66ae",
+      "distribution": {
+        "id": "restore",
+        "file": "icons/restore.svg",
+        "sha256": "b70bd8baeb0b1934587591c28166e1ba74a4357d1f4bc45cbf0a1410a55f66ae",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#restore",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "fasting",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/fasting.svg",
+      "sha256": "da3cd82483ed27656572c6105f8a069190d743735f2c55226bd0a96631f3b881",
+      "distribution": {
+        "id": "fasting",
+        "file": "icons/fasting.svg",
+        "sha256": "da3cd82483ed27656572c6105f8a069190d743735f2c55226bd0a96631f3b881",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#fasting",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "hourglass",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/hourglass.svg",
+      "sha256": "e0b3400b1ca308bdbdd640d98474ee9ed6946b85e724db3d6be3fac47755dc70",
+      "distribution": {
+        "id": "hourglass",
+        "file": "icons/hourglass.svg",
+        "sha256": "e0b3400b1ca308bdbdd640d98474ee9ed6946b85e724db3d6be3fac47755dc70",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#hourglass",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "database",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/database.svg",
+      "sha256": "0aa70337dfe564ab5b57bd6dab7a0f593337798f8df9ccc275cfd98ef031ca73",
+      "distribution": {
+        "id": "database",
+        "file": "icons/database.svg",
+        "sha256": "0aa70337dfe564ab5b57bd6dab7a0f593337798f8df9ccc275cfd98ef031ca73",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#database",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "expand",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/expand.svg",
+      "sha256": "f92f5fdfab89f675ff88e80255e9525b0d36b0e8ff0d41389203492b8623d5f4",
+      "distribution": {
+        "id": "expand",
+        "file": "icons/expand.svg",
+        "sha256": "f92f5fdfab89f675ff88e80255e9525b0d36b0e8ff0d41389203492b8623d5f4",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#expand",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "add",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/add.svg",
+      "sha256": "e38d9c7f999b6fc0408141c2b289c1aa2c520d27c6bd56aee8868bfc0eb35d76",
+      "distribution": {
+        "id": "add",
+        "file": "icons/add.svg",
+        "sha256": "e38d9c7f999b6fc0408141c2b289c1aa2c520d27c6bd56aee8868bfc0eb35d76",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#add",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "minus",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/minus.svg",
+      "sha256": "6d276d4928003c507b5a7e47aefae963ffe0d99d6139824c91b0f0960c28efe9",
+      "distribution": {
+        "id": "minus",
+        "file": "icons/minus.svg",
+        "sha256": "6d276d4928003c507b5a7e47aefae963ffe0d99d6139824c91b0f0960c28efe9",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#minus",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "down",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/down.svg",
+      "sha256": "1a0e92ff0171bfdbb287d5ae87f21d7b91bac0a5573b10cee40c1e303d6835d4",
+      "distribution": {
+        "id": "down",
+        "file": "icons/down.svg",
+        "sha256": "1a0e92ff0171bfdbb287d5ae87f21d7b91bac0a5573b10cee40c1e303d6835d4",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#down",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "close",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/close.svg",
+      "sha256": "ab0484ee32a3c061f0a301a568dfb9ff76b61b6dd23f30d408da0996573d6cf0",
+      "distribution": {
+        "id": "close",
+        "file": "icons/close.svg",
+        "sha256": "ab0484ee32a3c061f0a301a568dfb9ff76b61b6dd23f30d408da0996573d6cf0",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#close",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "check",
+      "category": "status",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/check.svg",
+      "sha256": "2a3a543b0b3b1d3cf652e612f3dfcaa66565e5513cab743f1eff47b672d9e56c",
+      "distribution": {
+        "id": "check",
+        "file": "icons/check.svg",
+        "sha256": "2a3a543b0b3b1d3cf652e612f3dfcaa66565e5513cab743f1eff47b672d9e56c",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#check",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "copy",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/copy.svg",
+      "sha256": "0d3907af17fc85e6bc7738d1ce8d8c91a73b56151b15b69afec27279c65204e5",
+      "distribution": {
+        "id": "copy",
+        "file": "icons/copy.svg",
+        "sha256": "0d3907af17fc85e6bc7738d1ce8d8c91a73b56151b15b69afec27279c65204e5",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#copy",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "page",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/page.svg",
+      "sha256": "c43cbd45b669a343d759b363b10110da5a26ab2a7ecb00748de81b2c9f7e4f84",
+      "distribution": {
+        "id": "page",
+        "file": "icons/page.svg",
+        "sha256": "c43cbd45b669a343d759b363b10110da5a26ab2a7ecb00748de81b2c9f7e4f84",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#page",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "next",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/next.svg",
+      "sha256": "bf4530b2513197f0683cf8996a5d883e5e36f1fa80635e1c641944ea781acce8",
+      "distribution": {
+        "id": "next",
+        "file": "icons/next.svg",
+        "sha256": "bf4530b2513197f0683cf8996a5d883e5e36f1fa80635e1c641944ea781acce8",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#next",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "back",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/back.svg",
+      "sha256": "dd74a7705c474c3ff57d2b0cdb350d3674598d27db07c558a3a160dcb63b1ed6",
+      "distribution": {
+        "id": "back",
+        "file": "icons/back.svg",
+        "sha256": "dd74a7705c474c3ff57d2b0cdb350d3674598d27db07c558a3a160dcb63b1ed6",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#back",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "album",
+      "category": "categories",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/album.svg",
+      "sha256": "a204644d9b7f657b34d41b8885b84474864b7279d6d5381361d04d6417fd756b",
+      "distribution": {
+        "id": "album",
+        "file": "icons/album.svg",
+        "sha256": "a204644d9b7f657b34d41b8885b84474864b7279d6d5381361d04d6417fd756b",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#album",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "playlist",
+      "category": "categories",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/playlist.svg",
+      "sha256": "42fc00c5c8e1b56989d7f924dcd01ac39f552bef97054d6cfd83745f46b3b757",
+      "distribution": {
+        "id": "playlist",
+        "file": "icons/playlist.svg",
+        "sha256": "42fc00c5c8e1b56989d7f924dcd01ac39f552bef97054d6cfd83745f46b3b757",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#playlist",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "auto",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/auto.svg",
+      "sha256": "847d6f7142cfc5c1224de1b9d9f5981386b879617b4f58eafd2e86e33728203a",
+      "distribution": {
+        "id": "auto",
+        "file": "icons/auto.svg",
+        "sha256": "847d6f7142cfc5c1224de1b9d9f5981386b879617b4f58eafd2e86e33728203a",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#auto",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "light",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/light.svg",
+      "sha256": "61379f3ca29000499a71df2c537d13f4ce1334103b2a7f2ce42c2592a5926227",
+      "distribution": {
+        "id": "light",
+        "file": "icons/light.svg",
+        "sha256": "61379f3ca29000499a71df2c537d13f4ce1334103b2a7f2ce42c2592a5926227",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#light",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "dark",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/dark.svg",
+      "sha256": "7cb32017f28f3c127bb8c663ad754a6da432cd702404ac76819da059094cb979",
+      "distribution": {
+        "id": "dark",
+        "file": "icons/dark.svg",
+        "sha256": "7cb32017f28f3c127bb8c663ad754a6da432cd702404ac76819da059094cb979",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#dark",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "theme",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/theme.svg",
+      "sha256": "c497a842ebd0ad11750760bfb4bc78b9d90e261a7134d1d0c7f04ab917dad940",
+      "aliasOf": "dark",
+      "distribution": {
+        "id": "theme",
+        "file": "icons/theme.svg",
+        "sha256": "c497a842ebd0ad11750760bfb4bc78b9d90e261a7134d1d0c7f04ab917dad940",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#theme",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "retry",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/retry.svg",
+      "sha256": "5377e940b5b39cd9a2961f3cafdbf85214ee589f683fc2a79e4305107b6c13f9",
+      "distribution": {
+        "id": "retry",
+        "file": "icons/retry.svg",
+        "sha256": "5377e940b5b39cd9a2961f3cafdbf85214ee589f683fc2a79e4305107b6c13f9",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#retry",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "debug",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/debug.svg",
+      "sha256": "698ba05b0c023a4373fc6d39fb384c810d923acdf471c5fae2a963524faa4e02",
+      "distribution": {
+        "id": "debug",
+        "file": "icons/debug.svg",
+        "sha256": "698ba05b0c023a4373fc6d39fb384c810d923acdf471c5fae2a963524faa4e02",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#debug",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "home",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/home.svg",
+      "sha256": "7f2b7614baab489c28a14486718479bd7556bedf12928177b8535d8201050684",
+      "distribution": {
+        "id": "home",
+        "file": "icons/home.svg",
+        "sha256": "7f2b7614baab489c28a14486718479bd7556bedf12928177b8535d8201050684",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#home",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "settings",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/settings.svg",
+      "sha256": "f6bd6732a782eef3a89f3c432c8679f0db8986b214c3c37542de2ffa6eb8e7f0",
+      "distribution": {
+        "id": "settings",
+        "file": "icons/settings.svg",
+        "sha256": "f6bd6732a782eef3a89f3c432c8679f0db8986b214c3c37542de2ffa6eb8e7f0",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#settings",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "breathing",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/breathing.svg",
+      "sha256": "6aba4cc7b98e6203c34573beb5475186983395c2200ce413ea83bb80db5b1097",
+      "distribution": {
+        "id": "breathing",
+        "file": "icons/breathing.svg",
+        "sha256": "6aba4cc7b98e6203c34573beb5475186983395c2200ce413ea83bb80db5b1097",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#breathing",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "journal",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/journal.svg",
+      "sha256": "66326f6eb4b264e9690082792f6f6fcdac32404dd6d357bbc51b4ebbac9bc7f5",
+      "distribution": {
+        "id": "journal",
+        "file": "icons/journal.svg",
+        "sha256": "66326f6eb4b264e9690082792f6f6fcdac32404dd6d357bbc51b4ebbac9bc7f5",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#journal",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "medicine",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/medicine.svg",
+      "sha256": "d03390b4f216e0f3f41357301532aca11f6b23968b34a7e5aa40b1aeca52eafc",
+      "distribution": {
+        "id": "medicine",
+        "file": "icons/medicine.svg",
+        "sha256": "d03390b4f216e0f3f41357301532aca11f6b23968b34a7e5aa40b1aeca52eafc",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#medicine",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "routine",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/routine.svg",
+      "sha256": "914855593603243bd5d39267fffaf4a4cf17245736272a814fe261ddf871e5f3",
+      "distribution": {
+        "id": "routine",
+        "file": "icons/routine.svg",
+        "sha256": "914855593603243bd5d39267fffaf4a4cf17245736272a814fe261ddf871e5f3",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#routine",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "bookmark",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/bookmark.svg",
+      "sha256": "ae787cda0117829044381e821f8cac2e2883ca012967e083f7890b42a9bcef36",
+      "distribution": {
+        "id": "bookmark",
+        "file": "icons/bookmark.svg",
+        "sha256": "ae787cda0117829044381e821f8cac2e2883ca012967e083f7890b42a9bcef36",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#bookmark",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "course",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/course.svg",
+      "sha256": "9e5ef7320906c0164bb0ed9d046ac06d2fa128e0a623c214f0aeb87e05f10c0b",
+      "distribution": {
+        "id": "course",
+        "file": "icons/course.svg",
+        "sha256": "9e5ef7320906c0164bb0ed9d046ac06d2fa128e0a623c214f0aeb87e05f10c0b",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#course",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "book",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/book.svg",
+      "sha256": "24c8a919b646ee220e164781baa4cfd0320461fdf21161658cf75b7eb7fbd823",
+      "distribution": {
+        "id": "book",
+        "file": "icons/book.svg",
+        "sha256": "24c8a919b646ee220e164781baa4cfd0320461fdf21161658cf75b7eb7fbd823",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#book",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "collections",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/collections.svg",
+      "sha256": "3a2da3d4d666b12c45b1f57adb047dd49879e7d4698f015e8075c25538c74cc3",
+      "distribution": {
+        "id": "collections",
+        "file": "icons/collections.svg",
+        "sha256": "3a2da3d4d666b12c45b1f57adb047dd49879e7d4698f015e8075c25538c74cc3",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#collections",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "prompt",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/prompt.svg",
+      "sha256": "90c762d2749f613c071424ab6e686009cbd31f2e7655a07c091a55c0eebb1076",
+      "distribution": {
+        "id": "prompt",
+        "file": "icons/prompt.svg",
+        "sha256": "90c762d2749f613c071424ab6e686009cbd31f2e7655a07c091a55c0eebb1076",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#prompt",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "api",
+      "category": "navigation",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/api.svg",
+      "sha256": "a2c72e33e6cc1009c08ad38479758f49252d738933cc2bf831888eb6bba7bc53",
+      "distribution": {
+        "id": "api",
+        "file": "icons/api.svg",
+        "sha256": "a2c72e33e6cc1009c08ad38479758f49252d738933cc2bf831888eb6bba7bc53",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#api",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "open",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/open.svg",
+      "sha256": "0b363077c9bbae5d6fcacccd3a22ccedf3521debf477830af4ef6cf9a73c52eb",
+      "distribution": {
+        "id": "open",
+        "file": "icons/open.svg",
+        "sha256": "0b363077c9bbae5d6fcacccd3a22ccedf3521debf477830af4ef6cf9a73c52eb",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#open",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "recommend",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/recommend.svg",
+      "sha256": "f1e198a56f0ee7c4566fa7c682a8757bea1f3ddd60f7ef1dbd59b5043d38e8b5",
+      "distribution": {
+        "id": "recommend",
+        "file": "icons/recommend.svg",
+        "sha256": "f1e198a56f0ee7c4566fa7c682a8757bea1f3ddd60f7ef1dbd59b5043d38e8b5",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#recommend",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "archive",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/archive.svg",
+      "sha256": "33267603980fcbece1be8ffd94f01e841409380ce6c130521233dd6279a78212",
+      "distribution": {
+        "id": "archive",
+        "file": "icons/archive.svg",
+        "sha256": "33267603980fcbece1be8ffd94f01e841409380ce6c130521233dd6279a78212",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#archive",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "channel",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/channel.svg",
+      "sha256": "c6a896f3f008556fa8a7731d618b00e580144963d8d1ac6653aaf970aa749974",
+      "distribution": {
+        "id": "channel",
+        "file": "icons/channel.svg",
+        "sha256": "c6a896f3f008556fa8a7731d618b00e580144963d8d1ac6653aaf970aa749974",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#channel",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "clear",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/clear.svg",
+      "sha256": "18d9a6c562378ddd4bad0079fe50a61c400a088734e7fcf1dc4a37bb8d7b8702",
+      "distribution": {
+        "id": "clear",
+        "file": "icons/clear.svg",
+        "sha256": "18d9a6c562378ddd4bad0079fe50a61c400a088734e7fcf1dc4a37bb8d7b8702",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#clear",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "pin",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/pin.svg",
+      "sha256": "be60885b6a76a5abe6947fea62e19d7816000c23cc6b56f8fca380aba97ccb8f",
+      "distribution": {
+        "id": "pin",
+        "file": "icons/pin.svg",
+        "sha256": "be60885b6a76a5abe6947fea62e19d7816000c23cc6b56f8fca380aba97ccb8f",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#pin",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "unpin",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/unpin.svg",
+      "sha256": "7cdb718aa2e8aa0fce6d54b18ef6266f2c6a1932d98a4a45abac1158a12f3f47",
+      "distribution": {
+        "id": "unpin",
+        "file": "icons/unpin.svg",
+        "sha256": "7cdb718aa2e8aa0fce6d54b18ef6266f2c6a1932d98a4a45abac1158a12f3f47",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#unpin",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "media",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/media.svg",
+      "sha256": "8c335ca1b76256201af3f0e6a401b6b4184c6b7cfac5e98de989c84ec4b15437",
+      "distribution": {
+        "id": "media",
+        "file": "icons/media.svg",
+        "sha256": "8c335ca1b76256201af3f0e6a401b6b4184c6b7cfac5e98de989c84ec4b15437",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#media",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "edit",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/edit.svg",
+      "sha256": "945c8d16e9c1e165be4ed83d8b3d5e2ee253013c461caa80d44d603b3498a43e",
+      "distribution": {
+        "id": "edit",
+        "file": "icons/edit.svg",
+        "sha256": "945c8d16e9c1e165be4ed83d8b3d5e2ee253013c461caa80d44d603b3498a43e",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#edit",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "preview",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/preview.svg",
+      "sha256": "5c4c63cc00412bf9c13f9f71b522be9ac9a1beaf80ae27099ca0949e82a42bc7",
+      "distribution": {
+        "id": "preview",
+        "file": "icons/preview.svg",
+        "sha256": "5c4c63cc00412bf9c13f9f71b522be9ac9a1beaf80ae27099ca0949e82a42bc7",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#preview",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "history",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/history.svg",
+      "sha256": "2016e8a04e34474db040c7afc775d2824dd161241bcb073f5457eb0d3062484b",
+      "distribution": {
+        "id": "history",
+        "file": "icons/history.svg",
+        "sha256": "2016e8a04e34474db040c7afc775d2824dd161241bcb073f5457eb0d3062484b",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#history",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "terminal",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/terminal.svg",
+      "sha256": "58b6212c8a04518aff6efa09e21b7a26c86627d4396580d06e17f491dce29202",
+      "distribution": {
+        "id": "terminal",
+        "file": "icons/terminal.svg",
+        "sha256": "58b6212c8a04518aff6efa09e21b7a26c86627d4396580d06e17f491dce29202",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#terminal",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "language",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/language.svg",
+      "sha256": "976aefa7cd123389fc2b5e5cf6205446c22e15645576fb25b12662fbb9fe757c",
+      "distribution": {
+        "id": "language",
+        "file": "icons/language.svg",
+        "sha256": "976aefa7cd123389fc2b5e5cf6205446c22e15645576fb25b12662fbb9fe757c",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#language",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "website",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/website.svg",
+      "sha256": "3e7191e2f80990b74ddc43dfe86bee2a2cd51604a6575e6c90b3d07783f67f68",
+      "aliasOf": "language",
+      "distribution": {
+        "id": "website",
+        "file": "icons/website.svg",
+        "sha256": "3e7191e2f80990b74ddc43dfe86bee2a2cd51604a6575e6c90b3d07783f67f68",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#website",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "font",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/font.svg",
+      "sha256": "112eb44e64fedca6f911580d42de820f06e7ef34c76c5da54dbb9480b98f635f",
+      "distribution": {
+        "id": "font",
+        "file": "icons/font.svg",
+        "sha256": "112eb44e64fedca6f911580d42de820f06e7ef34c76c5da54dbb9480b98f635f",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#font",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "contrast",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/contrast.svg",
+      "sha256": "c2016359742952742638ba29b742a0ecc9f46a123fa3e44531ec47f8d7397713",
+      "distribution": {
+        "id": "contrast",
+        "file": "icons/contrast.svg",
+        "sha256": "c2016359742952742638ba29b742a0ecc9f46a123fa3e44531ec47f8d7397713",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#contrast",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "pending",
+      "category": "status",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/pending.svg",
+      "sha256": "270a586907b3e59ac4f936fb7467cfd9f6748af3b33e8a7fc5d800bb89b57d50",
+      "distribution": {
+        "id": "pending",
+        "file": "icons/pending.svg",
+        "sha256": "270a586907b3e59ac4f936fb7467cfd9f6748af3b33e8a7fc5d800bb89b57d50",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#pending",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "error",
+      "category": "status",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/error.svg",
+      "sha256": "6018c9e35930a2db3d0972edc3aa7261237eebe59049041be8fba6d573788b1e",
+      "distribution": {
+        "id": "error",
+        "file": "icons/error.svg",
+        "sha256": "6018c9e35930a2db3d0972edc3aa7261237eebe59049041be8fba6d573788b1e",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#error",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "search",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/search.svg",
+      "sha256": "130b9f50d6b87b590d7ffb2a181ab30c30c6c7bb866da44afd4bf2d0ce5a3583",
+      "distribution": {
+        "id": "search",
+        "file": "icons/search.svg",
+        "sha256": "130b9f50d6b87b590d7ffb2a181ab30c30c6c7bb866da44afd4bf2d0ce5a3583",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#search",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "chevronDown",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/chevronDown.svg",
+      "sha256": "d01046506abf202baf39872b190f229187c40c85080338f0f42a8073e97cccf5",
+      "distribution": {
+        "id": "chevronDown",
+        "file": "icons/chevronDown.svg",
+        "sha256": "d01046506abf202baf39872b190f229187c40c85080338f0f42a8073e97cccf5",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#chevronDown",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "comic",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/comic.svg",
+      "sha256": "4836782328a157bff1f20fd47e08862f34bc26e56ad759c326c9e12b302546e5",
+      "distribution": {
+        "id": "comic",
+        "file": "icons/comic.svg",
+        "sha256": "4836782328a157bff1f20fd47e08862f34bc26e56ad759c326c9e12b302546e5",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#comic",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "command",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/command.svg",
+      "sha256": "2bcfe03eae56870c1db5e8f88eb175544110e9d6e7fdc0e8673e4af071374a85",
+      "distribution": {
+        "id": "command",
+        "file": "icons/command.svg",
+        "sha256": "2bcfe03eae56870c1db5e8f88eb175544110e9d6e7fdc0e8673e4af071374a85",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#command",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "eye",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/eye.svg",
+      "sha256": "39437a530a60ebe5d63b0bc0aa40f8f5d9c3648eff5cd97f7173b768aa9e85ee",
+      "distribution": {
+        "id": "eye",
+        "file": "icons/eye.svg",
+        "sha256": "39437a530a60ebe5d63b0bc0aa40f8f5d9c3648eff5cd97f7173b768aa9e85ee",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#eye",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "game",
+      "category": "categories",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/game.svg",
+      "sha256": "3fff53ffc95093fc5e329ce0dbdd724f943605b44a1040d5793194cc783b64e3",
+      "distribution": {
+        "id": "game",
+        "file": "icons/game.svg",
+        "sha256": "3fff53ffc95093fc5e329ce0dbdd724f943605b44a1040d5793194cc783b64e3",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#game",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "grains",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/grains.svg",
+      "sha256": "292fbcf824cbad39e99060ffa57026f48f996a38fd7778bdd7cd1be133bfdcb9",
+      "distribution": {
+        "id": "grains",
+        "file": "icons/grains.svg",
+        "sha256": "292fbcf824cbad39e99060ffa57026f48f996a38fd7778bdd7cd1be133bfdcb9",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#grains",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "hand",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/hand.svg",
+      "sha256": "8102a092a71cab1819d8364ee0c9b076bf33d5a9244866e4a535f066ebdc1f90",
+      "distribution": {
+        "id": "hand",
+        "file": "icons/hand.svg",
+        "sha256": "8102a092a71cab1819d8364ee0c9b076bf33d5a9244866e4a535f066ebdc1f90",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#hand",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "inventory",
+      "category": "categories",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/inventory.svg",
+      "sha256": "a6324e25e968373c007c09dc085187ba8e5bfa7b052fd1c89529250767618f75",
+      "distribution": {
+        "id": "inventory",
+        "file": "icons/inventory.svg",
+        "sha256": "a6324e25e968373c007c09dc085187ba8e5bfa7b052fd1c89529250767618f75",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#inventory",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "keyboard",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/keyboard.svg",
+      "sha256": "74ad2d9aebd0e32ef1fcdf0ceb3f08d870038890ae3e324334ecd34df43073df",
+      "distribution": {
+        "id": "keyboard",
+        "file": "icons/keyboard.svg",
+        "sha256": "74ad2d9aebd0e32ef1fcdf0ceb3f08d870038890ae3e324334ecd34df43073df",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#keyboard",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "liked",
+      "category": "categories",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/liked.svg",
+      "sha256": "e827f1cd810edbd72f9828ca31706a6ed9be5bc2e0360282f75585fa3c75633f",
+      "distribution": {
+        "id": "liked",
+        "file": "icons/liked.svg",
+        "sha256": "e827f1cd810edbd72f9828ca31706a6ed9be5bc2e0360282f75585fa3c75633f",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#liked",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "movie",
+      "category": "categories",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/movie.svg",
+      "sha256": "c44ce324ea6d982fa6f4b9f2cd5bbe5b8477e8eaf38d3a77dea17abce0aa72fc",
+      "distribution": {
+        "id": "movie",
+        "file": "icons/movie.svg",
+        "sha256": "c44ce324ea6d982fa6f4b9f2cd5bbe5b8477e8eaf38d3a77dea17abce0aa72fc",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#movie",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "note",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/note.svg",
+      "sha256": "b1c161b278451587c3f5b808cd0a48591277a71d29f3361c0e6ea2e047e434c4",
+      "distribution": {
+        "id": "note",
+        "file": "icons/note.svg",
+        "sha256": "b1c161b278451587c3f5b808cd0a48591277a71d29f3361c0e6ea2e047e434c4",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#note",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "offline",
+      "category": "status",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/offline.svg",
+      "sha256": "7c5575be7474274f4c99574b8ebf506d2a847844bc3486b4d0b06523cb9da7ed",
+      "distribution": {
+        "id": "offline",
+        "file": "icons/offline.svg",
+        "sha256": "7c5575be7474274f4c99574b8ebf506d2a847844bc3486b4d0b06523cb9da7ed",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#offline",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "pointer",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/pointer.svg",
+      "sha256": "697b29965b9fe5c4d1b2698e0dab45872260235d50a5815ff66d5df7ffdad202",
+      "distribution": {
+        "id": "pointer",
+        "file": "icons/pointer.svg",
+        "sha256": "697b29965b9fe5c4d1b2698e0dab45872260235d50a5815ff66d5df7ffdad202",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#pointer",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "power",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/power.svg",
+      "sha256": "0651f983f596f21b3c394e751ac0eec128bf5f4db4b795345bd292976870e041",
+      "distribution": {
+        "id": "power",
+        "file": "icons/power.svg",
+        "sha256": "0651f983f596f21b3c394e751ac0eec128bf5f4db4b795345bd292976870e041",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#power",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "shuffle",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/shuffle.svg",
+      "sha256": "9c235f5d955647bb6b1233075b62e3a96ad3afb13d666df7634f7ecab09e22ac",
+      "distribution": {
+        "id": "shuffle",
+        "file": "icons/shuffle.svg",
+        "sha256": "9c235f5d955647bb6b1233075b62e3a96ad3afb13d666df7634f7ecab09e22ac",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#shuffle",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "space",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/space.svg",
+      "sha256": "25f8d7b7b37855c834c038c68486215fbe3136f363f2bf4dc49d131dd013dd74",
+      "distribution": {
+        "id": "space",
+        "file": "icons/space.svg",
+        "sha256": "25f8d7b7b37855c834c038c68486215fbe3136f363f2bf4dc49d131dd013dd74",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#space",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "speed",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/speed.svg",
+      "sha256": "fe9f40353436064bb2c294f3ee66af488de662a0da9f52d4863fbc9fd838d2a8",
+      "distribution": {
+        "id": "speed",
+        "file": "icons/speed.svg",
+        "sha256": "fe9f40353436064bb2c294f3ee66af488de662a0da9f52d4863fbc9fd838d2a8",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#speed",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "sync",
+      "category": "status",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/sync.svg",
+      "sha256": "357ec4c8838f6d7a6e2858a49e6d6c91ad3d07bcfc8fc27572aaa5057d5426fa",
+      "distribution": {
+        "id": "sync",
+        "file": "icons/sync.svg",
+        "sha256": "357ec4c8838f6d7a6e2858a49e6d6c91ad3d07bcfc8fc27572aaa5057d5426fa",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#sync",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "tv",
+      "category": "categories",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/tv.svg",
+      "sha256": "247ca4073b4b45e5f79f252390ffdfbf2e2abc5707a2a958952c46b711282d4c",
+      "distribution": {
+        "id": "tv",
+        "file": "icons/tv.svg",
+        "sha256": "247ca4073b4b45e5f79f252390ffdfbf2e2abc5707a2a958952c46b711282d4c",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#tv",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "unarchive",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/unarchive.svg",
+      "sha256": "dad3507ecc8a39b6df5a8b75e5d40874caac086e42af1483ecd43b9a78d4e682",
+      "distribution": {
+        "id": "unarchive",
+        "file": "icons/unarchive.svg",
+        "sha256": "dad3507ecc8a39b6df5a8b75e5d40874caac086e42af1483ecd43b9a78d4e682",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#unarchive",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "width",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/width.svg",
+      "sha256": "245dee21ef2ab43055e7929b15151ea1f9590645f9d57b7c443b1f53faa75d9b",
+      "distribution": {
+        "id": "width",
+        "file": "icons/width.svg",
+        "sha256": "245dee21ef2ab43055e7929b15151ea1f9590645f9d57b7c443b1f53faa75d9b",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#width",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "work",
+      "category": "actions",
+      "canvas": 22,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/work.svg",
+      "sha256": "af499e79363c641af29d6fa46fa9c6718991063e7f45283203d616ed3c040859",
+      "distribution": {
+        "id": "work",
+        "file": "icons/work.svg",
+        "sha256": "af499e79363c641af29d6fa46fa9c6718991063e7f45283203d616ed3c040859",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#work",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "typeSerif",
+      "category": "typography",
+      "canvas": 24,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/typeSerif.svg",
+      "sha256": "ae9049360a2f983ed5e0a807ff4cd8ef850384625c47918477668b44b6556659",
+      "distribution": {
+        "id": "typeSerif",
+        "file": "icons/typeSerif.svg",
+        "sha256": "ae9049360a2f983ed5e0a807ff4cd8ef850384625c47918477668b44b6556659",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#typeSerif",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "typeDot",
+      "category": "typography",
+      "canvas": 24,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/typeDot.svg",
+      "sha256": "1489c00ce5c3ce69c5e31b0fe4467e62e74b7e9d7ce6e6f178093efc997c6657",
+      "distribution": {
+        "id": "typeDot",
+        "file": "icons/typeDot.svg",
+        "sha256": "1489c00ce5c3ce69c5e31b0fe4467e62e74b7e9d7ce6e6f178093efc997c6657",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#typeDot",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "typeSans",
+      "category": "typography",
+      "canvas": 24,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/typeSans.svg",
+      "sha256": "7391534df4f9e906516deaa792a48ea2d7670a87a5cf281a5f4c43ec76491a8e",
+      "distribution": {
+        "id": "typeSans",
+        "file": "icons/typeSans.svg",
+        "sha256": "7391534df4f9e906516deaa792a48ea2d7670a87a5cf281a5f4c43ec76491a8e",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#typeSans",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    },
+    {
+      "name": "fastingLibrary",
+      "category": "categories",
+      "canvas": 24,
+      "grid": [
+        9,
+        9
+      ],
+      "svg": "icons/fastingLibrary.svg",
+      "sha256": "42e3406cbf4f0e9ff97f6484873a6324053789222da26113661f7e303d1c8cee",
+      "distribution": {
+        "id": "fastingLibrary",
+        "file": "icons/fastingLibrary.svg",
+        "sha256": "42e3406cbf4f0e9ff97f6484873a6324053789222da26113661f7e303d1c8cee",
+        "selection": "selected",
+        "license": "CC-BY-4.0-to-extent-of-owned-rights",
+        "visualReview": "performed-2026-10-22",
+        "reason": "Original editable grid matches preserved source receipt; generic pictogram, no recognizable third-party mark in bounded visual review.",
+        "sourceReference": "grids.json#fastingLibrary",
+        "metadataReview": "SVG-elements-and-attributes-reviewed"
+      },
+      "initialSource": null
+    }
+  ]
+}
